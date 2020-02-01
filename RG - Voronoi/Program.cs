@@ -16,7 +16,7 @@ namespace RG___Voronoi
             myform.Size = new Size(1280, 720);
             myform.FormBorderStyle = FormBorderStyle.FixedDialog;
             myform.StartPosition = FormStartPosition.CenterScreen;
-            myform.MaximizeBox = true;
+            myform.MaximizeBox = false;
             //myform.WindowState = FormWindowState.Maximized;
 
             BowyerWatson bw = new BowyerWatson(myform.Width, myform.Height);
@@ -68,10 +68,10 @@ namespace RG___Voronoi
             ToolBarButton toolBarButton3 = new ToolBarButton();
             ToolBarButton toolBarButton4 = new ToolBarButton();
             // Set the Text properties of the ToolBarButton controls.
-            toolBarButton1.Text = "Delaunay triangulation";
-            toolBarButton2.Text = "Delaunay triangulation with Voronoi outline";
-            toolBarButton3.Text = "Voronoi diagram";
-            toolBarButton4.Text = "Voronoi diagram with outline";
+            toolBarButton1.Text = "Voronoi diagram";
+            toolBarButton2.Text = "Voronoi diagram with outline";
+            toolBarButton3.Text = "Delaunay triangulation";
+            toolBarButton4.Text = "Delaunay triangulation with Voronoi outline";
 
             // Add the ToolBarButton controls to the ToolBar.
             toolBar1.Buttons.Add(toolBarButton1);
@@ -101,7 +101,7 @@ namespace RG___Voronoi
 
             Graphics g = e.Graphics;
 
-            if (buttonClickedIndex.Equals(0) || buttonClickedIndex.Equals(1))
+            if (buttonClickedIndex.Equals(2) || buttonClickedIndex.Equals(3))
             {
                 //DELUNAY TRIANGULATION
                 foreach (var triangle in triangles)
@@ -120,7 +120,7 @@ namespace RG___Voronoi
                     g.FillPolygon(brush, points);
                 }
             }
-            else if (buttonClickedIndex.Equals(2) || buttonClickedIndex.Equals(3))
+            else if (buttonClickedIndex.Equals(0) || buttonClickedIndex.Equals(1))
             {
                 //VORONOI COLOURED
                 foreach (VoroniCell cell in voronoiCells)

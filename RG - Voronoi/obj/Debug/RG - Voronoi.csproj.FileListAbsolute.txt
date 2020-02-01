@@ -1,0 +1,11 @@
+C:\Users\Helenah\RiderProjects\RG - Voronoi\RG - Voronoi\bin\Debug\RG___Voronoi.exe
+C:\Users\Helenah\RiderProjects\RG - Voronoi\RG - Voronoi\bin\Debug\RG___Voronoi.pdb
+C:\Users\Helenah\RiderProjects\RG - Voronoi\RG - Voronoi\obj\Debug\RG - Voronoi.csprojAssemblyReference.cache
+C:\Users\Helenah\RiderProjects\RG - Voronoi\RG - Voronoi\obj\Debug\RG - Voronoi.csproj.CoreCompileInputs.cache
+C:\Users\Helenah\RiderProjects\RG - Voronoi\RG - Voronoi\obj\Debug\RG___Voronoi.exe
+C:\Users\Helenah\RiderProjects\RG - Voronoi\RG - Voronoi\obj\Debug\RG___Voronoi.pdb
+C:\Users\Helenah\RiderProjects\RG - Voronoi\RG - Voronoi\bin\Debug\System.Drawing.Common.dll
+C:\Users\Helenah\RiderProjects\RG - Voronoi\RG - Voronoi\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Helenah\RiderProjects\RG - Voronoi\RG - Voronoi\bin\Debug\System.Windows.Forms.dll
+C:\Users\Helenah\RiderProjects\RG - Voronoi\RG - Voronoi\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Helenah\RiderProjects\RG - Voronoi\RG - Voronoi\obj\Debug\RG - Voronoi.csproj.CopyComplete
